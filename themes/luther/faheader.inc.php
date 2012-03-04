@@ -179,9 +179,8 @@ else
 	echo("<li><a href='?p=core/register'>Register</a>");
 }
 
-/* if(!$_ARCHON->Security->userHasAdministrativeAccess())
+if(!$_ARCHON->Security->userHasAdministrativeAccess())
 {
-*/
 	$emailpage = defined('PACKAGE_COLLECTIONS') ? "collections/research" : "core/contact";
 	
 	echo("<li><a href='?p={$emailpage}&amp;f=email&amp;referer=" . urlencode($_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']) . "'>Contact Us</a></li>");
@@ -198,7 +197,7 @@ else
 		
 		echo("<li><span id='viewcartlink' class='$class' $hidden><a href='?p=collections/research&amp;f=cart&amp;referer=" . urlencode($_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']) . "'>View Cart (<span id='cartcount'>$EntryCount</span>)</a></span></li>");
 	}
-/*} */
+}
 ?>
 					</ul>	 
 				</div>
