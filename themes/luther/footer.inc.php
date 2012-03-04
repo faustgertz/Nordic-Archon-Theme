@@ -107,10 +107,10 @@ if(!$_ARCHON->Security->userHasAdministrativeAccess())
 		<aside>
 			<p>A project made possible by partnerships with</p>
 			<ul>
-				<li>Logo</li>
-				<li>Logo</li>
+				<li><a href="http://www.luther.edu/"><img alt="Luther College" src="themes/<?php echo($_ARCHON->PublicInterface->Theme); ?>/_/img/logos/luther.gif" /></a></li>
+				<li><a href="http://vesterheim.org/"><img alt="Vesterheim Norwegian-American Museum" src="themes/<?php echo($_ARCHON->PublicInterface->Theme); ?>/_/img/logos/vesterheim.gif" /></a></li>
 				<li><a href="http://www.archives.gov/nhprc/"><img alt="National Historical Publications and Records Commission" src="themes/<?php echo($_ARCHON->PublicInterface->Theme); ?>/_/img/logos/nhprc.gif" /></a></li>
-			</ul>		
+			</ul>			
 		</aside>
 	</footer>
 	<!--[if lt IE 8]>
