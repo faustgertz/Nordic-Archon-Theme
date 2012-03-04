@@ -184,6 +184,10 @@ else
 	echo("<li><a href='?p=core/register'>Register</a>");
 }
 
+/*
+ * Perhaps this should be uncommented if the admin user should not have access to links
+ * for Contact, My Account, and View Cart.
+ */
 /* if(!$_ARCHON->Security->userHasAdministrativeAccess())
 {
 */
