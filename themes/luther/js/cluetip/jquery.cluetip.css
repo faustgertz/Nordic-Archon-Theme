@@ -34,17 +34,20 @@
 
 .cluetip-default {
   background: #f3f3fd url('../../images/previewthumbnail.gif') repeat-x bottom left;
+  background:#19436D;
   border: 1px solid #aaa;
 }
 .cluetip-default #cluetip-outer {
   position: relative;
   margin: 0;
   background: #f3f3fd url('../../images/previewthumbnail.gif') repeat-x bottom left;
+  background:#19436D;
 }
 .cluetip-default h3#cluetip-title {
   margin: 0 0 5px;
   padding: 8px 10px 4px;
   background: #eee url('../../images/previewcaption.gif') repeat-x top left;
+  background:#759FDB;
   border-bottom: 1px solid #ccc;
 }
 .cluetip-default #cluetip-title a {
