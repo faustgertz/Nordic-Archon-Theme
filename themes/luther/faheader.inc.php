@@ -161,8 +161,14 @@ if($message)
 <?php
 if($_ARCHON->Security->isAuthenticated())
 {
-	echo("<li>Welcome, " . $_ARCHON->Security->Session->User->toString() . "</li>");
-	
+	if($_ARCHON->Security->userHasAdministrativeAccess())
+	{
+		echo("<li>Welcome, " . $_ARCHON->Security->Session->User->toString() . "</li>");
+	}	
+	if($_ARCHON->Security->userHasAdministrativeAccess())
+    {
+    	echo("<li><a href='?p=admin' rel='external'>Admin</a></li>");
+    }	
 	$logoutURI = preg_replace('/(&|\\?)f=([\\w])*/', '', $_SERVER['REQUEST_URI']);
 	$Logout = (encoding_strpos($logoutURI, '?') !== false) ? '&amp;f=logout' : '?f=logout';
 	$strLogout = encode($logoutURI, ENCODE_HTML) . $Logout;
@@ -186,7 +192,7 @@ if(!$_ARCHON->Security->userHasAdministrativeAccess())
 	echo("<li><a href='?p={$emailpage}&amp;f=email&amp;referer=" . urlencode($_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']) . "'>Contact Us</a></li>");
 	if($_ARCHON->Security->isAuthenticated())
 	{
-		echo("<li><a href='?p=core/account&amp;f=account'>My Account</a></li>");
+		echo("<li><a href='?p=core/account&amp;f=account'>My Account (" . $_ARCHON->Security->Session->User->getString('Login') . ")</a></li>");
 	}
 	if(defined('PACKAGE_COLLECTIONS'))
 	{

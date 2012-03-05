@@ -65,7 +65,11 @@ if($_ARCHON->Security->isAuthenticated())
 	$logoutURI = preg_replace('/(&|\\?)f=([\\w])*/', '', $_SERVER['REQUEST_URI']);
 	$Logout = (encoding_strpos($logoutURI, '?') !== false) ? '&amp;f=logout' : '?f=logout';
 	$strLogout = encode($logoutURI, ENCODE_HTML) . $Logout;
-	echo($_ARCHON->Security->Session->User->toString());
+	echo("<li>" . $_ARCHON->Security->Session->User->toString() . "</li>");
+	if($_ARCHON->Security->userHasAdministrativeAccess())
+    {
+    	echo("<li><a href='?p=admin' rel='external'>Admin</a></li>");
+    }
 	echo("<li><a href='$strLogout'>Logout</a></li>");
 }
 elseif($_ARCHON->config->ForceHTTPS)
@@ -80,13 +84,12 @@ else
 }
 ?>
 <?php
-/*
 if(!$_ARCHON->Security->userHasAdministrativeAccess())
 {
-*/	
+	
 	if($_ARCHON->Security->isAuthenticated())
 	{
-		echo("<li><a href='?p=core/account&amp;f=account'>My Account</a></li>");
+		echo("<li><a href='?p=core/account&amp;f=account'>My Account (" . $_ARCHON->Security->Session->User->getString('Login') . ")</a></li>");
 	}
 	if(defined('PACKAGE_COLLECTIONS'))
 	{
@@ -94,12 +97,9 @@ if(!$_ARCHON->Security->userHasAdministrativeAccess())
 		$EntryCount = $_ARCHON->Security->Session->ResearchCart->getCartCount();
 		$class = $_ARCHON->Repository->ResearchFunctionality & RESEARCH_COLLECTIONS ? '' : 'hidewhenempty';
 		$hidden = ($_ARCHON->Repository->ResearchFunctionality & RESEARCH_COLLECTIONS || $EntryCount) ? '' : "style='display:none'";
-		
 		echo("<li><span id='viewcartlink' class='$class' $hidden><a href='?p=collections/research&amp;f=cart&amp;referer=" . urlencode($_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']) . "'>View Cart (<span id='cartcount'>$EntryCount</span>)</a></span></li>");
 	}
-/*
 }
-*/
 ?>				
 				</ul>
 			</section>													
