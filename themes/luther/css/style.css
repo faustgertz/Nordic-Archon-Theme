@@ -272,8 +272,6 @@ div[role="main"] {
 div[role="main"] .container {
  margin:0 1.195219123506%;
 }
-
-
 div[role="main"] p {
  margin:0 0 1.428571em; /* 14px * 1.428571 = 20px */
 }
@@ -304,6 +302,54 @@ div[role=main] .container section.search a {
 /* \ Main - for Home - Search Section / */
 
 /* \\ Main - for Home // */
+
+div#famain[role="main"] .container {
+ margin:0 1.19522%;
+}
+div#famain[role="main"] #fanav {
+ background-color:#759FDB;
+ font-size:0.857143em;
+ line-height:1.66667em;
+ margin:0 1.19522% 1.66667em;
+ padding:0.75em 1.19522%;
+}
+div#famain[role="main"] #fanav p {
+ margin-bottom:0;
+}
+div#famain[role="main"] #fanav form {
+ margin:1.66667em 0;
+}
+div#famain[role="main"]  dl.faitem {
+ margin:0 0 1.42857em;
+ padding-left:1.5em;
+}
+div#famain[role="main"] dt.faitem {
+ position:relative;
+ padding-right:75px; 
+}
+div#famain[role="main"]  dl.faitem dt.faitem {
+ margin:1.42857em 0 0;
+}
+div#famain[role="main"]  dl.faitem dt.faitem:first-of-type {
+ margin:0;
+}
+div#famain[role="main"]  dl.faitem dd.faitemcontent {
+ padding-left:1.5em;
+}
+
+div#famain[role="main"] a.research_add,
+div#famain[role="main"] a.research_add img, 
+div#famain[role="main"] a.research_delete,
+div#famain[role="main"] a.research_delete img {
+ display:inline;
+}
+div#famain[role="main"] dt.faitem a.research_add,
+div#famain[role="main"] dt.faitem a.research_delete {
+ position:absolute;
+ right:0;
+ top:0;
+}
+/* used in faheader.inc.php */
 
 
 
@@ -898,7 +944,18 @@ img.edit {
 	 width:60.557768924302789%; /* 608px / 1004px */
 	}
 	/* \\ Home // */
+	
 
+
+	div#famain[role="main"] .container {
+	 margin:0 1.19522%;
+	 margin:0 0 0 1.89873%;
+	}
+	div#famain[role="main"] #fanav {
+	 float:right;
+	 margin:0 0 1.66667em 1.89873%; 
+	 width:40%;
+	}
 
 	/* // Cards \\  */
 	#ccardleft {
@@ -908,6 +965,10 @@ img.edit {
 	}
 	#ccardprintcontact {
 	 width:38.815789473684211%; /* 420px /854px */
+	}
+	div#famain[role="main"] #ccardprintcontact {
+	 float:none;
+	 width:54.6%;
 	}
 	#ccardscope {
 	 float:right;
@@ -1087,7 +1148,13 @@ img.edit {
 	}
 	/* \\ Home // */
 
-
+	div#famain[role="main"] .container {
+	 margin:0 25.89642% 0 1.19522%;
+	}
+	div#famain[role="main"] #fanav {
+	 margin:0 0 1.66667em;
+	 width:22.31076%;
+	}
 	/* // Cards \\  */
 	#ccardleft {	 
 	 width:49.180327868852459%;
@@ -1095,6 +1162,11 @@ img.edit {
 	#ccardprintcontact {
 	 width:30.408163265306122%;
 	}
+	div#famain[role="main"] #ccardprintcontact {
+	 float:right;
+	 width:30.408163265306122%;	 
+	 width:48.9%;
+	}	
 	#ccardscope {
 	 float:right;	 
 	 width:49.180327868852459%;

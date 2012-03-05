@@ -276,9 +276,10 @@ echo $breadcrumbs;
 			</section>
 		</nav>
 	</header>		
+	<div class="group" id="famain" role="main">
                <!-- Begin Navigation Bar for Finding Aid View -->
 
-               <div id='left'>
+               <div id='fanav'>
                   <div id='fanavbox'>
                      <p class='bold' style='text-align:center'><?php echo($objCollection->getString('Title')); ?></p>
                      <p><a href="#" tabindex="300">Overview</a></p>
@@ -371,5 +372,5 @@ echo $breadcrumbs;
 
          </div>
       </div>		
-	<div class="group" id="famain" role="main">
+
 		<div class="container">
