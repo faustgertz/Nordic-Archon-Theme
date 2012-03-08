@@ -274,7 +274,7 @@ $DigitalLibraryClass = $arrP[0] == 'digitallibrary' ? 'currentBrowseLink' : 'bro
 $breadcrumbs = $_ARCHON->PublicInterface->createNavigation(); 
 /*
 $archon_phrase = array('Archon', 'Browse By Collection Title', 'Browse Digital Content', 'Browse by Record Group');
-$luther_phrase = array('Nordica', 'Browse By Collection', 'Browse Digital Image', 'Browse by Repository');
+$luther_phrase = array('Nordic', 'Browse By Collection', 'Browse Digital Image', 'Browse by Repository');
 $breadcrumbs = str_replace($archon_phrase, $luther_phrase, $breadcrumbs);
 */
 echo $breadcrumbs;

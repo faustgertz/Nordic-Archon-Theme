@@ -25,7 +25,7 @@ isset($_ARCHON) or die();
 				</ul>
 			</section>	
 			<section class="account">
-				<h1>Nordica</h1>
+				<h1>Nordic</h1>
 				<ul>
 <?php
 if(!$_ARCHON->Security->userHasAdministrativeAccess())

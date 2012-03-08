@@ -6,13 +6,13 @@ if($_REQUEST['f'] == 'pdfsearch')
 	return;
 }
 ?>
-<h1 id="titleheader">About Nordica</h1>
-<p>Nordica is a catalog of archival materials from Luther College and Vesterheim Norwegian-American Museum.  It was designed to allow researchers, students, genealogists, and other interested users to search and browse the original materials that document the Norwegian-American experience.</p>
+<h1 id="titleheader">About Nordic</h1>
+<p>Nordic is a catalog of archival materials from Luther College and Vesterheim Norwegian-American Museum.  It was designed to allow researchers, students, genealogists, and other interested users to search and browse the original materials that document the Norwegian-American experience.</p>
 
 
 
-<h2>About <abbr title="Norwegian-American Digital Catalog of Archives">Nordica</abbr></h2>
-<p>This website is named Nordica (<strong>Nor</strong>wegian-American <strong>Di</strong>gital <strong>C</strong>atalog of <strong>A</strong>rchives) and it is a result of many hours of work spent inventorying archival materials down to the folder level.  Much like a library catalog, this catalog will only tell users what materials are held at the archives and where they are located.  The majority of these letters, reports, and papers are not digitized and only about 100 photographs are available to search and browse under “Digital Images.”  It is hoped that in the future, we will be able to add more digital content and images and will also expand to include other Scandinavian-American materials from additional repositories and locations.</p>
+<h2>About <abbr title="Norwegian-American Digital Catalog">Nordic</abbr></h2>
+<p>This website is named Nordic (<strong>Nor</strong>wegian-American <strong>Di</strong>gital <strong>C</strong>atalog of <strong>A</strong>rchives) and it is a result of many hours of work spent inventorying archival materials down to the folder level.  Much like a library catalog, this catalog will only tell users what materials are held at the archives and where they are located.  The majority of these letters, reports, and papers are not digitized and only about 100 photographs are available to search and browse under “Digital Images.”  It is hoped that in the future, we will be able to add more digital content and images and will also expand to include other Scandinavian-American materials from additional repositories and locations.</p>
 
 <h2>About “Journeys to America”</h2>
 <p>In June 2011, Luther College in partnership with Vesterheim Norwegian-American Museum received a grant from the National Historical Publications and Records Commission to create an aggregate, online catalog of materials from both repositories.  The project was named “Journeys to America” to emphasize the documentation of the immigration story.  

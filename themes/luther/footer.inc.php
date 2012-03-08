@@ -32,7 +32,7 @@ if($_ARCHON->Script == 'packages/collections/pub/findingaid.php')
 				</ul>
 			</section>	
 			<section class="account">
-				<h1>Nordica</h1>
+				<h1>Nordic</h1>
 				<ul>
 <?php
 if(!$_ARCHON->Security->userHasAdministrativeAccess())

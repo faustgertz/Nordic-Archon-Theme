@@ -49,7 +49,7 @@ echo("<h1 id='titleheader'>" . strip_tags($_ARCHON->PublicInterface->Title) . "<
 	}
 	?>
 				</form>	
-				<p><a href="/?p=core/index&f=search-tips">How to use Nordica...</a></p>
+				<p><a href="/?p=core/index&f=search-tips">How to use Nordic...</a></p>
 			</section>	
 
 		</div>
