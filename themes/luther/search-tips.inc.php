@@ -11,8 +11,8 @@ if($_REQUEST['f'] == 'pdfsearch')
 <p>(Eventually, I’d like to have a video here, centered, but until we get Nordic finished and live, just this text will do)</p>
 -->
 
-<h2>More Tips and Tricks</h2>
-<ul>
+<h2>Tips and Tricks</h2>
+<ul class="bullets">
 	<li>Entering keywords in the search box will return results from all repository locations.</li>
 	<li>Having trouble finding a name? Try different spellings or try Browsing by Creator, as many Norwegian names have been changed over the years.  For example, Olsen may actually be spelled Olson.</li>
 	<li>If you are only wanting to search digitized photographs, click “Digital Images” and use the keyword search box or browse all thumbnails.  This will limit your results to only digital content.</li>

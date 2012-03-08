@@ -814,7 +814,10 @@ div[role=main] h6 {
  line-height:1.111111111111111em; /* 20px / 14px */
  margin-top:1.111111111111111em; /* 20px / 14px */
 }
-
+div[role=main] ul.bullets,
+div[role=main] ul.bullets li {
+ list-style:disc outside none;
+}
 
 div[role=main] h1#titleheader {
  color:#19436D;
