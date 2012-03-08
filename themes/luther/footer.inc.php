@@ -21,13 +21,13 @@ if($_ARCHON->Script == 'packages/collections/pub/findingaid.php')
 	<footer class="group" role="contentinfo">
 		<nav>
 			<section class="classification">
-				<h1>Browse by</h1>
+				<h1>Browse</h1>
 				<ul>
 					<li class="<?php echo($TitleClass); ?>"><a href="?p=collections/collections" onclick="js_highlighttoplink(this.parentNode); return true;">Collections</a></li>
 					<li class="<?php echo($DigitalLibraryClass); ?>"><a href="?p=digitallibrary/digitallibrary" onclick="js_highlighttoplink(this.parentNode); return true;">Digital Content</a></li>
 					<li class="<?php echo($SubjectsClass); ?>"><a href="?p=subjects/subjects" onclick="js_highlighttoplink(this.parentNode); return true;">Subjects</a></li>
 					<li class="<?php echo($CreatorsClass); ?>"><a href="?p=creators/creators" onclick="js_highlighttoplink(this.parentNode); return true;">Creators</a></li>
-					<li class="<?php echo($ClassificationsClass); ?>"><a href="?p=collections/classifications" onclick="js_highlighttoplink(this.parentNode); return true;">Record Groups</a></li>
+					<li class="<?php echo($ClassificationsClass); ?>"><a href="?p=collections/classifications" onclick="js_highlighttoplink(this.parentNode); return true;">Repositories</a></li>
 					<li><a href="/" onclick="js_highlighttoplink(this.parentNode); return true;">Keyword Search</a></li>
 				</ul>
 			</section>	
