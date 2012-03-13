@@ -313,6 +313,18 @@ div#famain[role="main"] #fanav {
  margin:0 1.19522% 1.66667em;
  padding:0.75em 1.19522%;
 }
+div#famain[role="main"] #fanav a:link,
+div#famain[role="main"] #fanav a:visited,
+div#famain[role="main"] #fanav a:hover,
+div#famain[role="main"] #fanav a:active,
+div#famain[role="main"] #fanav a:focus {
+ color:#19436D;
+}
+div#famain[role="main"] #fanav a:hover,
+div#famain[role="main"] #fanav a:active,
+div#famain[role="main"] #fanav a:focus {
+ color:#D86246;
+}
 div#famain[role="main"] #fanav p {
  margin-bottom:0;
 }
@@ -493,6 +505,18 @@ img[alt="expand/collapse"] {
  padding:0.75em 0; /* 9px / 12px */
  text-align:center;
  width:100%;
+}
+#ccardprintcontact a:link,
+#ccardprintcontact a:visited,
+#ccardprintcontact a:hover,
+#ccardprintcontact a:active,
+#ccardprintcontact a:focus {
+ color:#19436D;
+}
+#ccardprintcontact a:hover,
+#ccardprintcontact a:active,
+#ccardprintcontact a:focus {
+ color:#D86246;
 }
 /* Stuff in comments would help restore vertical rhythm. */
 /* Might also consider css3 selectors to add icons 
