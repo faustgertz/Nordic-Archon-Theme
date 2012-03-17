@@ -692,10 +692,6 @@ img.digcontentfile {
 .thumbnailimg:hover .thumbnailcaption {
  background:#D86246;
 }
-.thumbnailimg a {
- text-decoration:none;
-}
-
 #mediumpreviewimg {
  width:300px;
  border:1px solid #4D2D10;
@@ -842,7 +838,19 @@ div[role=main] ul.bullets,
 div[role=main] ul.bullets li {
  list-style:disc outside none;
 }
-
+div[role=main] ul.linear,
+div[role=main] ul.linear li {
+ list-style:none;
+}
+div[role=main] ul.linear li {
+ border-left:#000 thin solid;
+ display:inline;
+ padding:0 1ex;
+}
+div[role=main] ul.linear li:first-of-type {
+ border-left:none;
+ padding-left:0;
+}
 div[role=main] h1#titleheader {
  color:#19436D;
  font-size:1.714285714285714em; /* 24px / 14px */ /*great primer*/

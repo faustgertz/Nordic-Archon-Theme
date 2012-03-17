@@ -24,11 +24,11 @@ if($_REQUEST['f'] == 'pdfsearch')
 <p>The National Historical Publications and Records Commission (<abbr title="National Historical Publications and Records Commission">NHPRC</abbr>) is a statutory body affiliated with the National Archives and Records Administration (<abbr title="National Archives and Records Administration">NARA</abbr>) that supports a wide range of activities to preserve, publish, and encourage the use of documentary sources, created in every medium ranging from quill pen to computer, relating to the history of the United States. NHPRC grants are vital to the preservation and accessibility of America’s memory and is essential in establishing the rights of citizens, ensuring the accountability of our government, and preserving the voice of national events as evidenced through the lives of our country’s people, communities, and organizations.</p>
 
 <h2>Connect with the Luther College Archives!</h2>
-<ul>
- <li><a href="https://www.facebook.com/LutherCollegeArchives">{Like} us on Facebook</a></li>
- <li><a href="https://secure.flickr.com/photos/luthercollegearchives/">View our Flickr photos</a></li>
+<ul class="linear">
+ <li><a href="https://www.facebook.com/LutherCollegeArchives">Like us on Facebook</a></li>
+ <li><a href="https://secure.flickr.com/photos/luthercollegearchives/">View our historical photos on Flickr</a></li>
  <li><a href="http://journeystoamerica.blogspot.com/">Read the Journeys to America blog</a></li>
- <li><a href="http://www.luthercollegehistory.org/">Visit the Luther College Wiki</a></li>
+ <li><a href="http://www.luthercollegehistory.org/">Visit the Luther College Wiki </a></li>
 </ul>
 
 <h2>Project Staff</h2>
