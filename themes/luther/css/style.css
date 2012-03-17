@@ -692,6 +692,17 @@ img.digcontentfile {
 .thumbnailimg:hover .thumbnailcaption {
  background:#D86246;
 }
+.thumbnailimg a:link,
+.thumbnailimg a:visited,
+.thumbnailimg a:hover,
+.thumbnailimg a:active,
+.thumbnailimg a:focus {
+ color:#000;
+ text-decoration:underline;
+}
+.thumbnailimg a:visited {
+ color:#581C90;
+}
 #mediumpreviewimg {
  width:300px;
  border:1px solid #4D2D10;
