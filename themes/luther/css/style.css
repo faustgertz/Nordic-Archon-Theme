@@ -610,9 +610,19 @@ img[alt="expand/collapse"] {
  float:left;
  left:3.666666666666667%;
  margin-bottom:0.714285714285714em; /* 10px / 14px */;
+ min-width:15em;
  padding:0 75px 0 0;
  position:relative;
+ width:50%;
 }
+.js .digcontentdata {
+ padding:0;
+ width:64%;
+}
+.cart-padding {
+ padding:0 75px 0 0;
+}
+
 .digcontentdata a.research_add,
 .digcontentdata a.research_delete {
  right:0;
@@ -1138,7 +1148,11 @@ img.edit {
 	.digcontentlabel {
 	 width:34.7%;
 	}
+	.js .digcontentdata {
+	 width:60%;	
+	}
 	.digcontentdata {
+	 width:40%;	
 	}
 	.digcontentrequest {
 
@@ -1335,7 +1349,11 @@ img.edit {
 	.digcontentlabel {
 	 width:34.7%;
 	}
+	.js .digcontentdata {
+	  width:60%;
+	}	
 	.digcontentdata {
+	  width:45%;
 	}
 	.digcontentrequest {
 
